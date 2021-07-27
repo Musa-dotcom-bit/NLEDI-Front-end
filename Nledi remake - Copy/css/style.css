@@ -1,0 +1,213 @@
+@charset "utf-8";
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+
+}
+
+html,body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  position: relative;
+
+}
+
+
+section .sec-main {
+  padding: 60px 10px 60px;
+  margin:0;
+  overflow: hidden;
+}
+
+[class * = "col-"]{
+  padding: 0!important;
+  margin: 0 !important;
+  border: 1px soild red;
+
+}
+
+h1{
+font-family: 'Open Sans', sans-serif;
+font-weight: 400;
+text-align: left;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+
+h2{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+button
+{
+  padding-top: 500px;
+  padding-bottom: 50px;
+}
+
+
+.sec-main{
+    width: 100%;
+    height: 100vh;
+    background: url('https://images.pexels.com/photos/1345085/pexels-photo-1345085.jpeg?auto=compress&cs=tinysrgb&h=650&w=940') no-repeat center center;
+    background-size: cover;
+    background: linear-gradient(#503eff, #08d4fd);
+    background: linear-gradient(0deg, #08d4fd 0%, #503eff 100%);
+    background: linear-gradient(#e66465, #9198e5);
+    position: relative;
+    color: #ffffff;
+    overflow: hidden;
+}
+.overlay{position:absolute;background-color:#212529;height:100%;width:100%;top:0;left:0;opacity:.3}
+.sec-main .tophead{
+    margin-top: 150px;
+  
+}
+.sec-main .title-main{
+    font-size: 65px;
+    font-weight: bold;
+  text-transform: uppercase;
+}
+.sec-main .subtitle-main{
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 35px;
+    line-height: 1.5em;
+}
+
+
+.sec-main .btn-explore{
+    display: inline-block;
+    padding: 8px 20px;
+    /*width: 128px;*/
+    font-size: 14px;
+    background: #3dce8c;
+    border: 1px solid #3dce8c;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 3px;
+  cursor:pointer;
+    box-shadow: 0px 0px 10px 0px #00000059;
+}
+
+.sec-main .btn-account{
+    display: inline-block;
+    padding: 8px 20px;
+   /* width: 128px;*/
+    font-size: 14px;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    color: #4f44ff;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 3px;
+  cursor:pointer;
+    box-shadow: 0px 0px 10px 0px #00000059;
+}
+
+.top-btn-block a{
+  margin: 0 7px 0 0;
+}
+
+
+
+/***********About **********************/
+i {
+    color: yellow;
+    font-size: 50px !important;
+    padding-top: 25px;
+}
+
+.small-boxes {
+    border-radius: 25px;
+    background: white;
+    width: 200px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    float: left;
+    margin: 40px 40px 30px 80px;
+
+
+}
+
+span {
+    color: black;
+    display: none;
+     font-size: 15px !important;
+}
+
+.small-boxes:hover i {
+  display: none;
+}
+
+.small-boxes:hover span {
+  display: inline;
+}
+/******end of about******/
+
+/***********stacked cards***************/
+  .stack-cards div{
+  height: 300px;
+  width:300px;
+  border:1px solid;
+
+}
+
+.red{
+  background-color: red;
+  z-index:1;
+  position: absolute;
+  top:50px;
+  display: block;
+
+}
+ .yellow{
+  background-color: yellow;
+  left: 20px;
+  top:30px;
+  position: relative;
+    display: block;
+
+}
+ .blue{
+  background-color: blue;
+  left:40px;
+  bottom:290px;
+  z-index:-1;
+  position:relative;
+    display: block;
+  }
+
+  /*******case studie carousel**************/
+
+  .testimonials {
+text-align: center;
+  background-color: #343a40;;
+  color: #fff;
+}
+
+.testimonials .btn{
+  text-align: center;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
